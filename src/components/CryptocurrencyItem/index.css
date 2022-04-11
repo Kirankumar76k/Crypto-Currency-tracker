@@ -1,0 +1,26 @@
+/* Write your CSS code here */
+.currency-logo {
+  height: 25px;
+  width: 25px;
+}
+.coin-container {
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+}
+.item-head2-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 600px;
+  font-size: 18px;
+}
+.currency-container {
+  display: flex;
+  align-items: center;
+}
+.item-head2 {
+  font-size: 16px;
+  margin-right: 10px;
+  margin-left: 10px;
+}

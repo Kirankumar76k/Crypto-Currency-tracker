@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #00e7ff;
+  font-size: 36px;
+}
+.item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #00e7ff;
+  border-radius: 8px;
+  min-width: 600px;
+  height: 300px;
+}
+.item-head {
+  font-size: 24px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.item-head-container {
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #092e33;
+  min-width: 700px;
+}
+.crypto-item-list {
+  list-style-type: none;
+}
+.h3 {
+  display: flex;
+  align-items: center;
+}
+.crypto-img {
+  height: 250px;
+  padding: 0px;
+}
